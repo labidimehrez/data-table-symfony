@@ -1,0 +1,133 @@
+Base_legal:
+    page accueil: Base Légal
+    Page configuration: Configuration
+    Configuration-CDR: Configuration des CDRs
+    Configuration-champs: Configuration des champs
+    Configuration-cle: Configuration des clés
+    Configuration-interface: Configuration des interfaces
+    Page Sécurité: Gestions des groupes et des utilisateurs
+    Securité-groupes: Gestions des groupes
+    Securité-utilisateur: Gestion des utilisateurs
+    Page Suivi des requêtes: Gestion des requêtes
+    Requêtes-non-taxe: Gestion des requêtes non taxées
+    Requêtes-tax: Gestion des requêtes taxées
+    Requêtes-mobile: Gestions des requêtes pour le mobile
+    Requêtes-fixe: Gestions des requêtes pour le fixe
+    Voix/SMS: Voix - SMS
+    MMS: MMS
+    Transfert: Transfert
+    Recharge: Recharge 
+    Recharge/Ajustement: Recharge - Ajustement
+    Données: Données mobile
+    Suivi-requêtes: Suivi et détails des requêtes
+    Suivi-liste: Liste et détails des requêtes
+    Suivi-api: API - FTP - REST
+    Voix: Voix
+    Transfert-Recharge: Transfert/Recharge
+    voix_sms: Voix/SMS
+    Recharge-Ajustement: Recharge/Ajustement
+Form:
+    valider: Valider
+    reset: Initialiser
+    Postpayé: Postpayé
+    Prepayé: Prepayé
+message:
+    succes:  La demande de la requête %requeteReference% est enregistrée avec succès!
+    fail:  La demande de la requête   a echoué
+    failchampnotexist: Ce champ n'est pas bien configuré
+    downloadLink:  Téléchargement
+    download:  Télécharger
+    infoLink: Informations
+    formtexterror: format erroné
+    showLink: détail requête  
+    details: Détails
+    textidentifiant.valeur: CIN, Carte résident, Passeport, Organisme...
+    ErreurInvalidChar: caractère invalide
+    ErreurInvalidIdentifiant: L'identifiant doit contenir au moin un chiffre ou une lettre
+    ErreurInvalidDateFrom: Cette date doit être inférieure ou égale à la date jusqu'a
+    ErreurInvalidDateTo: Cette date doit être inférieure ou égale à la date d'aujourd'hui
+requete:   
+    details: Détails de la requête
+    details_interface: Détails de la requête
+    status enabled: Prêt
+    status disabled:  En cours
+    category: Catégorie
+    User: Utilisateur
+    retourliste: Retour à la liste
+    Content: Contenue de la requête 
+    download:  Téléchargement
+    download number: Nombre téléchargement
+    download at: Date
+    download by: Téléchargé par
+    creationdate: Créé le
+    datecreationuser: Créé par
+    datefrom: Depuis
+    dateto: Jusqu'à 
+    columns_to_print: Colonnes à imprimer
+    query_str: Requête
+    checksum: Somme de contrôle
+    Checksum: Somme de contrôle
+    callback: Rappel
+    errorMsg: Message d'erreur
+    querySql: Requête Sql
+    link: Chemin
+    action: Action
+    type: Type
+    status: Statut
+    date: Date
+    status_bloque: Bloqué
+    critere_recherche: Critères de recherche
+    verrouile: Verrouillé
+    msisdn_a: Numéro MSISDN appelant
+    msisdn_b: Numéro MSISDN appelé
+    imei_a: Numéro IMEI appelant
+    imei_b: Numéro IMEI appelé
+    identifiant_a: Identifiant appelant
+    identifiant_b: Identifiant appelé
+    bts_a: Type bts appelant
+    bts_b: Type bts appelé
+    sim_a: Numéro SIM appelant
+    sim_b: Numéro SIM appelé
+    imsi_a: Numéro IMSI
+    servedipadress: Adresse IP
+    carte: Numéro Carte
+    description_recherche: Description 
+    montant: Montant
+    initiateur: Initiateur
+Request: 
+    RechargeTransfert:   Recharge et transfert
+    reference: Référence
+    categorie: Catégorie
+    detail:  Requête détail
+    details:  Requête détails
+    type: Type
+    date: Date
+    status: Statut
+    link: Lien
+    info: Information
+    information: Suivi téléchargement
+    datefrom: Date de début 
+    dateto: Date de fin
+    valeurs: Valeurs
+    champs: Champs
+    columnsToPrint.etoile: Pas de colonnes à imprimer.
+data: Données
+carteidentite: Carte Identité
+passport: Passport
+cartesejour: Carte de Séjour
+raisonsocial:  Raison Social
+Initiateur: Initiateur
+Montant: Montant
+Description: Description
+a: appelant
+b: appelé
+toutcocher: Tout cocher
+toutdecocher: Tout décocher
+Modal.Requete.Entete.Success: Information
+Modal.Requete.Body.Success: La requête %requeteReference% est enregistrée avec succès.
+Modal.Requete.Annuler.Success: Retour
+Modal.Requete.Lien.Success: Détails
+Requete.details.reference: Référence
+Requete.details.status: Statut
+Requete.details.requete: Requête
+Modal.pleaseWait: veuillez s'il vous plaît patienter

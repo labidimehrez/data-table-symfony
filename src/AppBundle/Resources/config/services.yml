@@ -1,0 +1,21 @@
+
+parameters:
+    gestion.tritux.query.class: Tritux\GestionBundle\Services\Query
+    gestion.tritux.activemqconnection.class: Tritux\GestionBundle\Services\ActiveMQConnection
+    gestion.tritux.breadcrumbs.class: Tritux\GestionBundle\Services\BreadCrumbs
+    gestion.tritux.download.class: Tritux\GestionBundle\Services\Dowload
+             
+services:
+    gestion.tritux.query:
+        class: %gestion.tritux.query.class%
+        arguments: [@doctrine.orm.entity_manager,@service_container ]
+    gestion.tritux.activemqconnection:
+        class: %gestion.tritux.activemqconnection.class%
+        arguments: ['@service_container'] 
+    gestion.tritux.breadcrumbs:
+        class: %gestion.tritux.breadcrumbs.class%
+        arguments: ['@service_container'] 
+    gestion.tritux.download:
+        class: %gestion.tritux.download.class%
+        arguments: [@service_container]
+ 
