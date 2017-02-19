@@ -18,3 +18,16 @@ multiple_delete_route:
     defaults: { _controller: AppBundle:Default:delete }
     options:
         expose: true
+
+route_edit:
+    path: /edit/{id}
+    defaults: { _controller: AppBundle:Default:edit }
+    options:
+        expose: true
+
+
+route_detail:
+    path: /detail/{id}
+    defaults: { _controller: AppBundle:Default:detail }
+    options:
+        expose: true

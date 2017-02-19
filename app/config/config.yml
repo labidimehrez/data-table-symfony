@@ -67,6 +67,16 @@ swiftmailer:
     spool:     { type: memory }
 
 # app/config/config.yml
+#waldo_datatable:
+#    all:    ~
+#    js:     ~
+
+
 waldo_datatable:
-    all:    ~
-    js:     ~
+    all:
+        search:           false
+    js:
+        pageLength: "10"
+        lengthMenu: [[5,10, 25, 50, -1], [5,10, 25, 50, 'All']]
+        dom: '<"clearfix"lf>rtip'
+        jQueryUI: "false"

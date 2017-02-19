@@ -18,7 +18,7 @@
         <tfoot>
             <tr>
                 {% if multiple %}
-                <th></th>
+                <th> </th>
                 {% endif %}
                 {% for label,key in fields %}
                     {% if label != '_identifier_' %}
@@ -26,7 +26,7 @@
                             {% if i in searchFields %}
                             <td><input index="{{ i }}" searchable="true" type="text" placeholder="{% trans %}datatable.common.search{% endtrans %}" class="search_init" /></td>
                             {% else %}
-                            <td></td>
+                            <td> </td>
                             {% endif %}
                         {% endif %}
                     {% endif %}
