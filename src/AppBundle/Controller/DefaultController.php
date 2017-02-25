@@ -21,7 +21,7 @@ class DefaultController extends Controller
                     "_identifier_" => 'x.id')
             )
             ->addJoin('x.category', 'g', \Doctrine\ORM\Query\Expr\Join::LEFT_JOIN)
-            ->setSearch(true)
+             ->setSearch(true) ->setGlobalSearch(true)
             ->setSearchFields(array(0, 1, 2))
            /* ->setMultiple(
                 array(
